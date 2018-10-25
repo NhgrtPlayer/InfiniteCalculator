@@ -22,6 +22,9 @@ int main(int argc, char** argv)
 		case '/':
 			std::cout << infinite_div(argv[1], argv[3]);
 			break;
+		case '%':
+			std::cout << infinite_mod(argv[1], argv[3]);
+			break;
 	}
 	std::cout << std::endl;
 	return (0);
